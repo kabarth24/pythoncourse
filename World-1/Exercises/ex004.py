@@ -1,8 +1,5 @@
-numero1 = input('Primeiro número: ')
-numero2 = input('Segundo número: ')
-
-numero1 = int(numero1)
-numero2 = int(numero2)
+numero1 = int(input('Primeiro número: '))
+numero2 = int(input('Segundo número: '))
 
 resultado = numero1 + numero2
 
