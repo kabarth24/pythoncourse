@@ -28,5 +28,7 @@ print('Agora é a sua vez de personalizar a contagem!')
 ini = int(input('Início: '))
 f = int(input('Fim: '))
 pas = int(input('Passo: '))
+if pas == 0:
+  pas = 1
 
 contador(ini, f, pas)
